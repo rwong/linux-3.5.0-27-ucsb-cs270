@@ -1,7 +1,7 @@
 VERSION = 3
 PATCHLEVEL = 5
 SUBLEVEL = 0
-EXTRAVERSION = 27-generic-cfs
+EXTRAVERSION = -27-generic-cfs
 NAME = Saber-toothed Squirrel
 
 # *DOCUMENTATION*
