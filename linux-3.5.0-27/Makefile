@@ -4,6 +4,9 @@ SUBLEVEL = 0
 EXTRAVERSION = -27-generic-cfs
 NAME = Saber-toothed Squirrel
 
+# Compile only for 4 processors
+CONCURRENCY_LEVEL = 4
+
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
 # More info can be located in ./README
