@@ -1,0 +1,36 @@
+Module                  Size  Used by
+nls_utf8               12494  1 
+isofs                  39178  1 
+vesafb                 13478  1 
+rfcomm                 37237  0 
+bnep                   17708  2 
+bluetooth             183152  10 rfcomm,bnep
+snd_intel8x0           33107  2 
+snd_ac97_codec        105576  1 snd_intel8x0
+ac97_bus               12671  1 snd_ac97_codec
+snd_pcm                80235  2 snd_intel8x0,snd_ac97_codec
+snd_seq_midi           13133  0 
+snd_rawmidi            25383  1 snd_seq_midi
+snd_seq_midi_event     14476  1 snd_seq_midi
+snd_seq                51281  2 snd_seq_midi,snd_seq_midi_event
+snd_timer              24319  2 snd_pcm,snd_seq
+snd_seq_device         14138  3 snd_seq_midi,snd_rawmidi,snd_seq
+snd                    62146  11 snd_intel8x0,snd_ac97_codec,snd_pcm,snd_rawmidi,snd_seq,snd_timer,snd_seq_device
+soundcore              14600  1 snd
+snd_page_alloc         14037  2 snd_intel8x0,snd_pcm
+psmouse                84837  0 
+ppdev                  12783  0 
+microcode              18210  0 
+lp                     13300  0 
+parport_pc             31969  0 
+joydev                 17162  0 
+i2c_piix4              12984  0 
+mac_hid                13038  0 
+parport                40727  3 ppdev,lp,parport_pc
+serio_raw              13032  0 
+hid_generic            12485  0 
+usbhid                 41700  0 
+hid                    82138  2 hid_generic,usbhid
+ahci                   25497  1 
+e1000                 100184  0 
+libahci                25938  1 ahci

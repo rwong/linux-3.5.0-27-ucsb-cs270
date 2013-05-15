@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.4.1 (Forsand)-->
+<?xml-stylesheet type="text/xsl" href="pts-results-viewer.xsl"?>
+<PhoronixTestSuite>
+  <Generated>
+    <Title>apache-152-exp-bfs-1</Title>
+    <LastModified>2013-05-14 19:34:39</LastModified>
+    <TestClient>Phoronix Test Suite v4.4.1 (Forsand)</TestClient>
+    <Description>VirtualBox testing on Ubuntu 12.10 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>apache-152-exp-bfs-1</Identifier>
+    <Hardware>Processor: Intel Core i5-2430M @ 2.38GHz (4 Cores), Motherboard: Oracle VirtualBox v1.2, Chipset: Intel 440FX- 82441FX PMC, Memory: 1024MB, Disk: 18GB VBOX HDD, Graphics: LLVMpipe, Audio: Intel 82801AA AC 97 Audio, Monitor: VBOX monitor, Network: Intel 82540EM Gigabit</Hardware>
+    <Software>OS: Ubuntu 12.10, Kernel: 3.5.0-27-generic-bfs-ck1 (i686), Desktop: Unity 6.12.0, Display Server: X Server 1.13.0, Display Driver: modesetting 0.5.0, OpenGL: 2.1 Mesa 9.0.3 Gallium 0.4, Compiler: GCC 4.7, File-System: ext4, Screen Resolution: 1024x768, System Layer: VirtualBox</Software>
+    <User>rayman-vm</User>
+    <TimeStamp>2013-05-14 19:34:39</TimeStamp>
+    <TestClientVersion>4.4.1</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=i686-linux-gnu --disable-werror --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-languages=c,c++,go,fortran,objc,obj-c++ --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-nls --enable-objc-gc --enable-plugin --enable-shared --enable-targets=all --enable-threads=posix --host=i686-linux-gnu --target=i686-linux-gnu --with-arch-32=i686 --with-tune=generic -v"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/apache-1.5.2</Identifier>
+    <Title>Apache Benchmark</Title>
+    <AppVersion>2.4.3</AppVersion>
+    <Arguments></Arguments>
+    <Description>Static Web Page Serving</Description>
+    <Scale>Requests Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>apache-152-exp-bfs-1</Identifier>
+        <Value>2520.77</Value>
+        <RawString>2678.35:2676.65:2148.31:2682.89:2676.62:2261.77</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-shared -fPIC -O2 -pthread"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

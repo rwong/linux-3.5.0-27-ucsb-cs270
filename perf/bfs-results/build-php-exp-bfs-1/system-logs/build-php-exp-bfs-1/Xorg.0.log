@@ -1,0 +1,428 @@
+
+X.Org X Server 1.13.0
+Release Date: 2012-09-05
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 3.2.0-37-generic i686 Ubuntu
+Current Operating System: Linux rayman-vm 3.5.0-27-generic-bfs-ck1 #1 SMP Tue May 14 11:29:59 PDT 2013 i686
+Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.5.0-27-generic-bfs-ck1 root=UUID=de6b87be-4b92-4bdb-a929-1f61f0b40c93 ro quiet splash vt.handoff=7
+Build Date: 11 April 2013  12:55:37PM
+xorg-server 2:1.13.0-0ubuntu6.2 (For technical support please see http://www.ubuntu.com/support) 
+Current version of pixman: 0.26.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Tue May 14 19:33:35 2013
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+(==) No Layout section.  Using the first Screen section.
+(==) No screen section available. Using defaults.
+(**) |-->Screen "Default Screen Section" (0)
+(**) |   |-->Monitor "<default monitor>"
+(==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+(==) Automatically adding devices
+(==) Automatically enabling devices
+(==) Automatically adding GPU devices
+(WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+	Entry deleted from font path.
+(WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+	Entry deleted from font path.
+(WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+	Entry deleted from font path.
+(WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+	Entry deleted from font path.
+(WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+	Entry deleted from font path.
+(WW) The directory "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType" does not exist.
+	Entry deleted from font path.
+(==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+(==) ModulePath set to "/usr/lib/i386-linux-gnu/xorg/extra-modules,/usr/lib/xorg/extra-modules,/usr/lib/xorg/modules"
+(II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+(II) Loader magic: 0xb7741640
+(II) Module ABI versions:
+	X.Org ANSI C Emulation: 0.4
+	X.Org Video Driver: 13.0
+	X.Org XInput driver : 18.0
+	X.Org Server Extension : 7.0
+(--) PCI:*(0:0:2:0) 80ee:beef:0000:0000 rev 0, Mem @ 0xe0000000/16777216
+(II) Open ACPI successful (/var/run/acpid.socket)
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension SECURITY
+Initializing built-in extension XINERAMA
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension COMPOSITE
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension XFree86-VidModeExtension
+Initializing built-in extension XFree86-DGA
+Initializing built-in extension XFree86-DRI
+Initializing built-in extension DRI2
+(II) LoadModule: "glx"
+(II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+(II) Module glx: vendor="X.Org Foundation"
+	compiled for 1.13.0, module version = 1.0.0
+	ABI class: X.Org Server Extension, version 7.0
+(==) AIGLX enabled
+Loading extension GLX
+(==) Matched vboxvideo as autoconfigured driver 0
+(==) Matched vesa as autoconfigured driver 1
+(==) Matched modesetting as autoconfigured driver 2
+(==) Matched fbdev as autoconfigured driver 3
+(==) Assigned the driver to the xf86ConfigLayout
+(II) LoadModule: "vboxvideo"
+(II) Loading /usr/lib/xorg/modules/drivers/vboxvideo_drv.so
+(II) Module vboxvideo: vendor="Oracle Corporation"
+	compiled for 10.13.0, module version = 1.0.1
+	Module class: X.Org Video Driver
+	ABI class: X.Org Video Driver, version 13.0
+(**) Load address of symbol "VBOXVIDEO" is 0xb6fb9d80
+(II) LoadModule: "vesa"
+(II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+(II) Module vesa: vendor="X.Org Foundation"
+	compiled for 1.12.99.902, module version = 2.3.2
+	Module class: X.Org Video Driver
+	ABI class: X.Org Video Driver, version 13.0
+(II) LoadModule: "modesetting"
+(II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+(II) Module modesetting: vendor="X.Org Foundation"
+	compiled for 1.13.0, module version = 0.5.0
+	Module class: X.Org Video Driver
+	ABI class: X.Org Video Driver, version 13.0
+(II) LoadModule: "fbdev"
+(II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+(II) Module fbdev: vendor="X.Org Foundation"
+	compiled for 1.12.99.902, module version = 0.4.3
+	Module class: X.Org Video Driver
+	ABI class: X.Org Video Driver, version 13.0
+(II) VBoxVideo: guest driver for VirtualBox: vbox
+(II) VESA: driver for VESA chipsets: vesa
+(II) modesetting: Driver for Modesetting Kernel Drivers: kms
+(II) FBDEV: driver for framebuffer: fbdev
+(++) using VT number 7
+
+(WW) Falling back to old probe method for vesa
+(WW) Falling back to old probe method for modesetting
+(EE) open /dev/dri/card0: No such file or directory
+(WW) Falling back to old probe method for fbdev
+(II) Loading sub module "fbdevhw"
+(II) LoadModule: "fbdevhw"
+(II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+(II) Module fbdevhw: vendor="X.Org Foundation"
+	compiled for 1.13.0, module version = 0.0.2
+	ABI class: X.Org Video Driver, version 13.0
+(II) VBoxVideo(0): VirtualBox guest additions video driver version 4.2.10
+(EE) VBoxVideo(0): Failed to initialize the VirtualBox device (rc=-102) - make sure that the VirtualBox guest additions are properly installed.  If you are not sure, try reinstalling them.  The X Window graphics drivers will run in compatibility mode.
+(II) Loading sub module "ramdac"
+(II) LoadModule: "ramdac"
+(II) Module "ramdac" already built-in
+(II) Loading sub module "fb"
+(II) LoadModule: "fb"
+(II) Loading /usr/lib/xorg/modules/libfb.so
+(II) Module fb: vendor="X.Org Foundation"
+	compiled for 1.13.0, module version = 1.0.0
+	ABI class: X.Org ANSI C Emulation, version 0.4
+(II) Loading sub module "shadowfb"
+(II) LoadModule: "shadowfb"
+(II) Loading /usr/lib/xorg/modules/libshadowfb.so
+(II) Module shadowfb: vendor="X.Org Foundation"
+	compiled for 1.13.0, module version = 1.0.0
+	ABI class: X.Org ANSI C Emulation, version 0.4
+(II) Loading sub module "vgahw"
+(II) LoadModule: "vgahw"
+(II) Loading /usr/lib/xorg/modules/libvgahw.so
+(II) Module vgahw: vendor="X.Org Foundation"
+	compiled for 1.13.0, module version = 0.1.0
+	ABI class: X.Org Video Driver, version 13.0
+(II) Loading sub module "dri"
+(II) LoadModule: "dri"
+(II) Module "dri" already built-in
+(II) VBoxVideo(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+(==) VBoxVideo(0): Depth 24, (--) framebuffer bpp 32
+(--) VBoxVideo(0): Virtual size is 32000x32000 (pitch 32000)
+(**) VBoxVideo(0):  Built-in mode "VBoxInitialMode": 47.8 MHz (scaled from 0.0 MHz), 46.4 kHz, 60.0 Hz
+(II) VBoxVideo(0): Modeline "VBoxInitialMode"x0.0   47.83  1024 1026 1028 1030  768 770 772 774 (46.4 kHz b)
+(**) VBoxVideo(0):  Built-in mode "VBoxDynamicMode": 47.8 MHz (scaled from 0.0 MHz), 46.4 kHz, 60.0 Hz
+(II) VBoxVideo(0): Modeline "VBoxDynamicMode"x0.0   47.83  1024 1026 1028 1030  768 770 772 774 (46.4 kHz b)
+(**) VBoxVideo(0):  Built-in mode "VBoxDynamicMode": 47.8 MHz (scaled from 0.0 MHz), 46.4 kHz, 60.0 Hz
+(II) VBoxVideo(0): Modeline "VBoxDynamicMode"x0.0   47.83  1024 1026 1028 1030  768 770 772 774 (46.4 kHz b)
+(**) VBoxVideo(0):  Built-in mode "VBox-1600x1200": 116.2 MHz (scaled from 0.0 MHz), 72.4 kHz, 60.0 Hz
+(II) VBoxVideo(0): Modeline "VBox-1600x1200"x0.0  116.21  1600 1602 1604 1606  1200 1202 1204 1206 (72.4 kHz b)
+(**) VBoxVideo(0):  Built-in mode "VBox-1440x1050": 91.6 MHz (scaled from 0.0 MHz), 63.4 kHz, 60.0 Hz
+(II) VBoxVideo(0): Modeline "VBox-1440x1050"x0.0   91.62  1440 1442 1444 1446  1050 1052 1054 1056 (63.4 kHz b)
+(**) VBoxVideo(0):  Built-in mode "VBox-1280x960": 74.5 MHz (scaled from 0.0 MHz), 58.0 kHz, 60.0 Hz
+(II) VBoxVideo(0): Modeline "VBox-1280x960"x0.0   74.54  1280 1282 1284 1286  960 962 964 966 (58.0 kHz b)
+(**) VBoxVideo(0):  Built-in mode "VBox-1024x768": 47.8 MHz (scaled from 0.0 MHz), 46.4 kHz, 60.0 Hz
+(II) VBoxVideo(0): Modeline "VBox-1024x768"x0.0   47.83  1024 1026 1028 1030  768 770 772 774 (46.4 kHz b)
+(**) VBoxVideo(0):  Built-in mode "VBox-800x600": 29.3 MHz (scaled from 0.0 MHz), 36.4 kHz, 60.0 Hz
+(II) VBoxVideo(0): Modeline "VBox-800x600"x0.0   29.31  800 802 804 806  600 602 604 606 (36.4 kHz b)
+(**) VBoxVideo(0):  Built-in mode "VBox-640x480": 18.8 MHz (scaled from 0.0 MHz), 29.2 kHz, 60.0 Hz
+(II) VBoxVideo(0): Modeline "VBox-640x480"x0.0   18.84  640 642 644 646  480 482 484 486 (29.2 kHz b)
+(II) VBoxVideo(0): vgaHWGetIOBase: hwp->IOBase is 0x03d0
+(==) VBoxVideo(0): RGB weight 888
+(==) VBoxVideo(0): Default visual is TrueColor
+(==) VBoxVideo(0): Using gamma correction (1.0, 1.0, 1.0)
+(==) VBoxVideo(0): DPI set to (96, 96)
+(II) UnloadModule: "vesa"
+(II) Unloading vesa
+(II) UnloadModule: "modesetting"
+(II) Unloading modesetting
+(II) UnloadModule: "fbdev"
+(II) Unloading fbdev
+(II) UnloadSubModule: "fbdevhw"
+(II) Unloading fbdevhw
+(--) Depth 24 pixmap format is 32 bpp
+(EE) [drm] drmOpen failed.
+(EE) VBoxVideo(0): DRIScreenInit failed, disabling DRI.
+(II) VBoxVideo(0): visual configurations initialized
+(II) VBoxVideo(0): Requested monitor count: 1
+(II) VBoxVideo(0): Output VBOX0 has no monitor section
+(II) VBoxVideo(0): Output VBOX0 has no monitor section
+(II) VBoxVideo(0): EDID for output VBOX0
+(II) VBoxVideo(0): Manufacturer: VBX  Model: 0  Serial#: 50332672
+(II) VBoxVideo(0): Year: 1990  Week: 1
+(II) VBoxVideo(0): EDID Version: 1.3
+(II) VBoxVideo(0): Digital Display Input
+(II) VBoxVideo(0): Indeterminate output size
+(II) VBoxVideo(0): Gamma: 2.20
+(II) VBoxVideo(0): DPMS capabilities: StandBy Suspend Off
+(II) VBoxVideo(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
+(II) VBoxVideo(0): Default color space is primary color space
+(II) VBoxVideo(0): First detailed timing is preferred mode
+(II) VBoxVideo(0): redX: 0.640 redY: 0.330   greenX: 0.300 greenY: 0.600
+(II) VBoxVideo(0): blueX: 0.150 blueY: 0.060   whiteX: 0.312 whiteY: 0.329
+(II) VBoxVideo(0): Manufacturer's mask: 0
+(II) VBoxVideo(0): Supported detailed timing:
+(II) VBoxVideo(0): clock: 47.8 MHz   Image Size:  0 x 0 mm
+(II) VBoxVideo(0): h_active: 1024  h_sync: 1026  h_sync_end 1028 h_blank_end 1030 h_border: 0
+(II) VBoxVideo(0): v_active: 768  v_sync: 770  v_sync_end 772 v_blanking: 774 v_border: 0
+(II) VBoxVideo(0): Ranges: V min: 0 V max: 200 Hz, H min: 0 H max: 200 kHz, PixClock max 1005 MHz
+(II) VBoxVideo(0): Monitor name: VBOX monitor
+(II) VBoxVideo(0): EDID (in hex):
+(II) VBoxVideo(0): 	00ffffffffffff005858000000040003
+(II) VBoxVideo(0): 	0100010380000078eeee91a3544c9926
+(II) VBoxVideo(0): 	0f505400000001010101010101010101
+(II) VBoxVideo(0): 	010101010101af120006400006300202
+(II) VBoxVideo(0): 	2200000000000000000000fd0000c800
+(II) VBoxVideo(0): 	c864000a202020202020000000fc0056
+(II) VBoxVideo(0): 	424f58206d6f6e69746f720a00000010
+(II) VBoxVideo(0): 	000a20202020202020202020202000fb
+(II) VBoxVideo(0): Printing probed modes for output VBOX0
+(II) VBoxVideo(0): Modeline "1024x768"x60.0   47.83  1024 1026 1028 1030  768 770 772 774 (46.4 kHz Pb)
+(II) VBoxVideo(0): Modeline "1600x1200"x60.0  116.21  1600 1602 1604 1606  1200 1202 1204 1206 (72.4 kHz b)
+(II) VBoxVideo(0): Modeline "1440x1050"x60.0   91.62  1440 1442 1444 1446  1050 1052 1054 1056 (63.4 kHz b)
+(II) VBoxVideo(0): Modeline "1280x960"x60.0   74.54  1280 1282 1284 1286  960 962 964 966 (58.0 kHz b)
+(II) VBoxVideo(0): Modeline "1024x768"x60.0   47.83  1024 1026 1028 1030  768 770 772 774 (46.4 kHz b)
+(II) VBoxVideo(0): Modeline "800x600"x60.0   29.31  800 802 804 806  600 602 604 606 (36.4 kHz b)
+(II) VBoxVideo(0): Modeline "640x480"x60.0   18.84  640 642 644 646  480 482 484 486 (29.2 kHz b)
+(II) VBoxVideo(0): Output VBOX0 connected
+(II) VBoxVideo(0): Using exact sizes for initial modes
+(II) VBoxVideo(0): Output VBOX0 using initial mode 1024x768
+(II) VBoxVideo(0): Using default gamma of (1.0, 1.0, 1.0) unless otherwise stated.
+(II) VBoxVideo(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+(==) VBoxVideo(0): DPMS enabled
+(--) RandR disabled
+(II) AIGLX: Screen 0 is not DRI2 capable
+(II) AIGLX: Screen 0 is not DRI capable
+(II) AIGLX: Loaded and initialized swrast
+(II) GLX: Initialized DRISWRAST GL provider for screen 0
+(II) VBoxVideo(0): Setting screen physical size to 270 x 203
+(II) XKB: reuse xkmfile /var/lib/xkb/server-B20D7FC79C7F597315E3E501AEF10E0D866E8E92.xkm
+(II) config/udev: Adding input device Power Button (/dev/input/event0)
+(**) Power Button: Applying InputClass "evdev keyboard catchall"
+(II) LoadModule: "evdev"
+(II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+(II) Module evdev: vendor="X.Org Foundation"
+	compiled for 1.13.0, module version = 2.7.3
+	Module class: X.Org XInput Driver
+	ABI class: X.Org XInput driver, version 18.0
+(II) Using input driver 'evdev' for 'Power Button'
+(**) Power Button: always reports core events
+(**) evdev: Power Button: Device: "/dev/input/event0"
+(--) evdev: Power Button: Vendor 0 Product 0x1
+(--) evdev: Power Button: Found keys
+(II) evdev: Power Button: Configuring as keyboard
+(**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+(II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+(**) Option "xkb_rules" "evdev"
+(**) Option "xkb_model" "pc105"
+(**) Option "xkb_layout" "us"
+(II) config/udev: Adding input device Sleep Button (/dev/input/event1)
+(**) Sleep Button: Applying InputClass "evdev keyboard catchall"
+(II) Using input driver 'evdev' for 'Sleep Button'
+(**) Sleep Button: always reports core events
+(**) evdev: Sleep Button: Device: "/dev/input/event1"
+(--) evdev: Sleep Button: Vendor 0 Product 0x3
+(--) evdev: Sleep Button: Found keys
+(II) evdev: Sleep Button: Configuring as keyboard
+(**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1/event1"
+(II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+(**) Option "xkb_rules" "evdev"
+(**) Option "xkb_model" "pc105"
+(**) Option "xkb_layout" "us"
+(II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+(**) VirtualBox USB Tablet: Applying InputClass "evdev pointer catchall"
+(II) Using input driver 'evdev' for 'VirtualBox USB Tablet'
+(**) VirtualBox USB Tablet: always reports core events
+(**) evdev: VirtualBox USB Tablet: Device: "/dev/input/event3"
+(--) evdev: VirtualBox USB Tablet: Vendor 0x80ee Product 0x21
+(--) evdev: VirtualBox USB Tablet: Found 9 mouse buttons
+(--) evdev: VirtualBox USB Tablet: Found scroll wheel(s)
+(--) evdev: VirtualBox USB Tablet: Found relative axes
+(--) evdev: VirtualBox USB Tablet: Found absolute axes
+(--) evdev: VirtualBox USB Tablet: Found x and y absolute axes
+(--) evdev: VirtualBox USB Tablet: Found absolute touchscreen
+(II) evdev: VirtualBox USB Tablet: Configuring as touchscreen
+(II) evdev: VirtualBox USB Tablet: Adding scrollwheel support
+(**) evdev: VirtualBox USB Tablet: YAxisMapping: buttons 4 and 5
+(**) evdev: VirtualBox USB Tablet: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+(**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input3/event3"
+(II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: TOUCHSCREEN, id 8)
+(WW) evdev: VirtualBox USB Tablet: touchpads, tablets and touchscreens ignore relative axes.
+(II) evdev: VirtualBox USB Tablet: initialized for absolute axes.
+(**) VirtualBox USB Tablet: (accel) keeping acceleration scheme 1
+(**) VirtualBox USB Tablet: (accel) acceleration profile 0
+(**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+(**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+(II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse0)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+(**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+(II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+(**) AT Translated Set 2 keyboard: always reports core events
+(**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event2"
+(--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+(--) evdev: AT Translated Set 2 keyboard: Found keys
+(II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+(**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event2"
+(II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 9)
+(**) Option "xkb_rules" "evdev"
+(**) Option "xkb_model" "pc105"
+(**) Option "xkb_layout" "us"
+(II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event4)
+(**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "evdev pointer catchall"
+(II) Using input driver 'evdev' for 'ImExPS/2 Generic Explorer Mouse'
+(**) ImExPS/2 Generic Explorer Mouse: always reports core events
+(**) evdev: ImExPS/2 Generic Explorer Mouse: Device: "/dev/input/event4"
+(--) evdev: ImExPS/2 Generic Explorer Mouse: Vendor 0x2 Product 0x6
+(--) evdev: ImExPS/2 Generic Explorer Mouse: Found 9 mouse buttons
+(--) evdev: ImExPS/2 Generic Explorer Mouse: Found scroll wheel(s)
+(--) evdev: ImExPS/2 Generic Explorer Mouse: Found relative axes
+(--) evdev: ImExPS/2 Generic Explorer Mouse: Found x and y relative axes
+(II) evdev: ImExPS/2 Generic Explorer Mouse: Configuring as mouse
+(II) evdev: ImExPS/2 Generic Explorer Mouse: Adding scrollwheel support
+(**) evdev: ImExPS/2 Generic Explorer Mouse: YAxisMapping: buttons 4 and 5
+(**) evdev: ImExPS/2 Generic Explorer Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+(**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input4/event4"
+(II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 10)
+(II) evdev: ImExPS/2 Generic Explorer Mouse: initialized for relative axes.
+(**) ImExPS/2 Generic Explorer Mouse: (accel) keeping acceleration scheme 1
+(**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration profile 0
+(**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+(**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+(II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse1)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(EE) VBoxVideo(0): Unable to determine whether the virtual machine supports mouse pointer integration - request initialization failed with return code -4
+(II) VBoxVideo(0): EDID vendor "VBX", prod id 0
+(II) VBoxVideo(0): DDCModeFromDetailedTiming: 1024x768 Warning: We only handle separate sync.
+(II) VBoxVideo(0): Using hsync ranges from config file
+(II) VBoxVideo(0): Using vrefresh ranges from config file
+(II) VBoxVideo(0): Printing DDC gathered Modelines:
+(II) VBoxVideo(0): Modeline "1024x768"x0.0   47.83  1024 1026 1028 1030  768 770 772 774 -hsync -vsync (46.4 kHz eP)
+(II) VBoxVideo(0): EDID vendor "VBX", prod id 0
+(II) VBoxVideo(0): DDCModeFromDetailedTiming: 1024x768 Warning: We only handle separate sync.
+(II) VBoxVideo(0): Using hsync ranges from config file
+(II) VBoxVideo(0): Using vrefresh ranges from config file
+(II) VBoxVideo(0): Printing DDC gathered Modelines:
+(II) VBoxVideo(0): Modeline "1024x768"x0.0   47.83  1024 1026 1028 1030  768 770 772 774 -hsync -vsync (46.4 kHz eP)
+(EE) VBoxVideo(0): Unable to determine whether the virtual machine supports mouse pointer integration - request initialization failed with return code -4
+(EE) VBoxVideo(0): Unable to determine whether the virtual machine supports mouse pointer integration - request initialization failed with return code -4
+(EE) VBoxVideo(0): Unable to determine whether the virtual machine supports mouse pointer integration - request initialization failed with return code -4
+(EE) VBoxVideo(0): Unable to determine whether the virtual machine supports mouse pointer integration - request initialization failed with return code -4
+(EE) VBoxVideo(0): Unable to determine whether the virtual machine supports mouse pointer integration - request initialization failed with return code -4
+(II) VBoxVideo(0): EDID vendor "VBX", prod id 0
+(II) VBoxVideo(0): DDCModeFromDetailedTiming: 1024x768 Warning: We only handle separate sync.
+(II) VBoxVideo(0): Using hsync ranges from config file
+(II) VBoxVideo(0): Using vrefresh ranges from config file
+(II) VBoxVideo(0): Printing DDC gathered Modelines:
+(II) VBoxVideo(0): Modeline "1024x768"x0.0   47.83  1024 1026 1028 1030  768 770 772 774 -hsync -vsync (46.4 kHz eP)
+(II) VBoxVideo(0): EDID vendor "VBX", prod id 0
+(II) VBoxVideo(0): DDCModeFromDetailedTiming: 1024x768 Warning: We only handle separate sync.
+(II) VBoxVideo(0): Using hsync ranges from config file
+(II) VBoxVideo(0): Using vrefresh ranges from config file
+(II) VBoxVideo(0): Printing DDC gathered Modelines:
+(II) VBoxVideo(0): Modeline "1024x768"x0.0   47.83  1024 1026 1028 1030  768 770 772 774 -hsync -vsync (46.4 kHz eP)
+(II) VBoxVideo(0): EDID vendor "VBX", prod id 0
+(II) VBoxVideo(0): DDCModeFromDetailedTiming: 1024x768 Warning: We only handle separate sync.
+(II) VBoxVideo(0): Using hsync ranges from config file
+(II) VBoxVideo(0): Using vrefresh ranges from config file
+(II) VBoxVideo(0): Printing DDC gathered Modelines:
+(II) VBoxVideo(0): Modeline "1024x768"x0.0   47.83  1024 1026 1028 1030  768 770 772 774 -hsync -vsync (46.4 kHz eP)
+(II) VBoxVideo(0): EDID vendor "VBX", prod id 0
+(II) VBoxVideo(0): DDCModeFromDetailedTiming: 1024x768 Warning: We only handle separate sync.
+(II) VBoxVideo(0): Using hsync ranges from config file
+(II) VBoxVideo(0): Using vrefresh ranges from config file
+(II) VBoxVideo(0): Printing DDC gathered Modelines:
+(II) VBoxVideo(0): Modeline "1024x768"x0.0   47.83  1024 1026 1028 1030  768 770 772 774 -hsync -vsync (46.4 kHz eP)
+(II) XKB: reuse xkmfile /var/lib/xkb/server-8C3648A5FD728529D869F46730BE1BC287DB231C.xkm
+(EE) VBoxVideo(0): Unable to determine whether the virtual machine supports mouse pointer integration - request initialization failed with return code -4
+(II) VBoxVideo(0): EDID vendor "VBX", prod id 0
+(II) VBoxVideo(0): DDCModeFromDetailedTiming: 1024x768 Warning: We only handle separate sync.
+(II) VBoxVideo(0): Using hsync ranges from config file
+(II) VBoxVideo(0): Using vrefresh ranges from config file
+(II) VBoxVideo(0): Printing DDC gathered Modelines:
+(II) VBoxVideo(0): Modeline "1024x768"x0.0   47.83  1024 1026 1028 1030  768 770 772 774 -hsync -vsync (46.4 kHz eP)
+(EE) VBoxVideo(0): Unable to determine whether the virtual machine supports mouse pointer integration - request initialization failed with return code -4
+(II) VBoxVideo(0): EDID vendor "VBX", prod id 0
+(II) VBoxVideo(0): DDCModeFromDetailedTiming: 1024x768 Warning: We only handle separate sync.
+(II) VBoxVideo(0): Using hsync ranges from config file
+(II) VBoxVideo(0): Using vrefresh ranges from config file
+(II) VBoxVideo(0): Printing DDC gathered Modelines:
+(II) VBoxVideo(0): Modeline "1024x768"x0.0   47.83  1024 1026 1028 1030  768 770 772 774 -hsync -vsync (46.4 kHz eP)
+(II) VBoxVideo(0): EDID vendor "VBX", prod id 0
+(II) VBoxVideo(0): DDCModeFromDetailedTiming: 1024x768 Warning: We only handle separate sync.
+(II) VBoxVideo(0): Using hsync ranges from config file
+(II) VBoxVideo(0): Using vrefresh ranges from config file
+(II) VBoxVideo(0): Printing DDC gathered Modelines:
+(II) VBoxVideo(0): Modeline "1024x768"x0.0   47.83  1024 1026 1028 1030  768 770 772 774 -hsync -vsync (46.4 kHz eP)
+(EE) VBoxVideo(0): Unable to determine whether the virtual machine supports mouse pointer integration - request initialization failed with return code -4
+(EE) VBoxVideo(0): Unable to determine whether the virtual machine supports mouse pointer integration - request initialization failed with return code -4
+(EE) VBoxVideo(0): Unable to determine whether the virtual machine supports mouse pointer integration - request initialization failed with return code -4
+(II) VBoxVideo(0): EDID vendor "VBX", prod id 0
+(II) VBoxVideo(0): DDCModeFromDetailedTiming: 1024x768 Warning: We only handle separate sync.
+(II) VBoxVideo(0): Using hsync ranges from config file
+(II) VBoxVideo(0): Using vrefresh ranges from config file
+(II) VBoxVideo(0): Printing DDC gathered Modelines:
+(II) VBoxVideo(0): Modeline "1024x768"x0.0   47.83  1024 1026 1028 1030  768 770 772 774 -hsync -vsync (46.4 kHz eP)
+(II) VBoxVideo(0): EDID vendor "VBX", prod id 0
+(II) VBoxVideo(0): DDCModeFromDetailedTiming: 1024x768 Warning: We only handle separate sync.
+(II) VBoxVideo(0): Using hsync ranges from config file
+(II) VBoxVideo(0): Using vrefresh ranges from config file
+(II) VBoxVideo(0): Printing DDC gathered Modelines:
+(II) VBoxVideo(0): Modeline "1024x768"x0.0   47.83  1024 1026 1028 1030  768 770 772 774 -hsync -vsync (46.4 kHz eP)
