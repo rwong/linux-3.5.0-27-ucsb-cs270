@@ -1,0 +1,1 @@
+BOOT_IMAGE=/boot/vmlinuz-3.5.0-27-generic-bfs-ck1 root=UUID=de6b87be-4b92-4bdb-a929-1f61f0b40c93 ro quiet splash vt.handoff=7
