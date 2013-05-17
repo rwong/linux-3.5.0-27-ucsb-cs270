@@ -1,0 +1,18 @@
+Device: /org/freedesktop/UPower/devices/line_power_AC
+  native-path:          /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/ACPI0003:00/power_supply/AC
+  power supply:         yes
+  updated:              Thu May 16 20:38:18 2013 (9609 seconds ago)
+  has history:          no
+  has statistics:       no
+  line-power
+    online:             yes
+
+Daemon:
+  daemon-version:  0.9.17
+  can-suspend:     no
+  can-hibernate    no
+  on-battery:      no
+  on-low-battery:  no
+  lid-is-closed:   no
+  lid-is-present:  no
+  is-docked:       no
